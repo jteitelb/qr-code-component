@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+  margin-top: 100px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  width: 330px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Outfit", sans-serif;
+  padding-bottom: 40px;
+}
+
+.card > img {
+  margin-top: 15px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.card > h3 {
+  margin: 15px 30px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.card > p {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  margin: 0px 35px;
+}
+
+.attribution {
+  margin-top: 20px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
